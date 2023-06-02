@@ -1,5 +1,7 @@
 # SOLID Principles
 
+![blg_inline_solid_principles](https://github.com/vishalMalvi/SOLID-Principles/assets/97470591/21441bce-d72b-4df7-a856-60268d27cdd4)
+
 ### The SOLID principles are a set of guidelines for writing good, maintainable code. Here is a brief explanation of each principle in the context of Swift:
 
 Single Responsibility Principle (SRP): Each class or module should have only one responsibility. In Swift, this means that a class should only have one reason to change.
