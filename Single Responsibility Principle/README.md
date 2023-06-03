@@ -1,4 +1,4 @@
-## The Single Responsibility Principle
+## Single Responsibility Principle
 
 The Single Responsibility Principle (SRP) is a software design principle that states that a class or module should have only one reason to change. In simpler terms, it means that each class should have a single responsibility or task and should not be responsible for multiple unrelated tasks.
 
