@@ -63,7 +63,7 @@ class StripeGateway: PaymentGateway {
 }
 ```
 
-In the updated example, we introduce the PaymentGateway protocol, which defines the contract for processing payments. The PaymentProcessor class now depends on the abstraction (protocol) instead of a concrete implementation. We can create different payment gateways (e.g., PayPalGateway, StripeGateway) that conform to the PaymentGateway protocol and pass them to the PaymentProcessor at runtime.
+In the updated example, we introduce the PaymentGateway protocol, which defines the contract for processing payments. The PaymentProcessor class now depends on the abstraction (protocol) instead of a concrete implementation. We can create different payment gateways (e.g. PayPalGateway, StripeGateway) that conform to the PaymentGateway protocol and pass them to the PaymentProcessor at runtime.
 
 This design allows us to easily swap or extend payment gateways without modifying the PaymentProcessor class. It promotes loose coupling and enhances code maintainability, testability, and flexibility.
 
