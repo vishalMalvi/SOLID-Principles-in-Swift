@@ -102,4 +102,4 @@ printArea(shape: rectangle) // Output: Area: 15
 let square = Square(sideLength: 4)
 printArea(shape: square) // Output: Area: 16
 ```
-Mow, the code adheres to the LSP because we can substitute the superclass (Shape) with its subclasses (Rectangle and Square) without any issues.
+Now, the code adheres to the LSP because we can substitute the superclass (Shape) with its subclasses (Rectangle and Square) without any issues.
